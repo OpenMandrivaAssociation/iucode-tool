@@ -1,5 +1,5 @@
 Name: iucode-tool
-Version: 2.1.2
+Version: 2.2
 Release: 1
 Source0: https://gitlab.com/iucode-tool/releases/raw/latest/%{name}_%{version}.tar.xz
 Summary: Tool for working with Intel microcode updates
