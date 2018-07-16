@@ -6,7 +6,7 @@ Summary: Tool for working with Intel microcode updates
 URL: https://gitlab.com/iucode-tool/iucode-tool/wikis/home
 License: GPLv2+
 Group: System/Kernel and hardware
-ExclusiveArch: %{ix86} x86_64
+ExclusiveArch: %{ix86} x86_64 znver1
 Obsoletes: microcode_ctl
 Suggests: microcode-intel
 
