@@ -1,13 +1,13 @@
 Name: iucode-tool
 Version: 2.3.1
-Release: 1
+Release: 2
 Source0: https://gitlab.com/iucode-tool/releases/raw/latest/%{name}_%{version}.tar.xz
 Summary: Tool for working with Intel microcode updates
 URL: https://gitlab.com/iucode-tool/iucode-tool/wikis/home
 License: GPLv2+
 Group: System/Kernel and hardware
 ExclusiveArch: %{ix86} x86_64 znver1
-Obsoletes: microcode_ctl
+%rename microcode_ctl
 Suggests: microcode-intel
 
 %description
