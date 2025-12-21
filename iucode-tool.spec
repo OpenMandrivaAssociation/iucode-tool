@@ -10,6 +10,11 @@ ExclusiveArch: %{ix86} x86_64 znver1
 %rename microcode_ctl
 Suggests: microcode-intel
 
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 %description
 Tool for working with Intel microcode updates
 
